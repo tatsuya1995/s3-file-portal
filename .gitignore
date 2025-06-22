@@ -1,0 +1,35 @@
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# CDK
+cdk.out/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# AWS SAM/Serverless
+.aws-sam/
+.serverless/
+
+# Test/coverage
+.pytest_cache/
+coverage/
+
+# Others
+infra/lambda/*/__pycache__/ 
